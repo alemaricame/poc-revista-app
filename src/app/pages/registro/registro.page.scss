@@ -1,0 +1,49 @@
+.m-t{
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.font{
+    font-size: 24px;
+}
+
+.m-t-f{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+ion-input{
+    border: 2px solid #000000;
+    margin:10px auto;
+    width: 80vw;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    background-color: white;
+}
+
+h5{
+    margin-top: 50%;
+    background-color: white;
+    margin:10px auto;
+    width: 80vw;
+    font-size: 14px;
+}
+
+.mt-submit{
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+ion-content{
+    --background: url('../../../assets/imgs/3.png') 0 0/100% 100% no-repeat;
+}
+ion-datetime{
+    border: 2px solid #000000;
+    margin:10px auto;
+    width: 80vw;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    background-color: white;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,63 @@
+ion-content{
+    --background: url('../../../assets/imgs/contenido.png') 0 0/100% 100% no-repeat;
+}
+
+button{
+    border: 2px solid #000000;
+    margin:10px auto;
+    width: 80vw;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    background-color: white;
+    width: 180px;
+    height: 40px;
+    text-align: inherit;
+    font-weight: bold;
+}
+
+.center-div{
+    background-color: transparent;
+    margin-top: 150px;
+}
+.conocenos{
+    margin-left: 20px;
+}
+
+.manteles{
+    margin-left: 65px;
+    width: 200px;
+}
+
+.historia{
+    margin-left: 40px;
+    width: 200px;
+}
+
+.muro{
+    margin-left: 70px;
+    width: 200px;
+}
+
+.eventos{
+    margin-left: 53px;
+    width: 150px;
+}
+
+.para_ti{
+    margin-left: 45px;
+    width: 220px;
+}
+
+.salud{
+    margin-left: 73px;
+    width: 100px;
+}
+
+.logout-class{
+    display: flex;
+    justify-content: end;
+    font-size: 14px
+}
+
+.mt-submit{
+    margin-right: 10vw;
+}

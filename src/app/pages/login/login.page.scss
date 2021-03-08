@@ -1,0 +1,26 @@
+ion-content{
+    --background: url('../../../assets/imgs/3.png') 0 0/100% 100% no-repeat;
+}
+
+img{
+    width: 80%;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+ion-input{
+    border: 2px solid #000000;
+    margin:10px auto;
+    width: 80vw;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    background-color: white;
+}
+
+.mt-submit{
+    margin-top: 30px;
+    font-size: 14px;
+}

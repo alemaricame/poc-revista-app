@@ -1,0 +1,19 @@
+
+<ion-content>
+    <div class="image">
+        <img src="../../../assets/imgs/1280px-Oxxo_Logo.png" alt="">
+    </div>
+
+    <h4 class="ion-text-center">Inicia sesión</h4>
+
+    <div>
+        <h5 class="ion-text-center">Número de empleado</h5>
+        <ion-input type="text" [(ngModel)]="num_empleado" placeholder="Número de empleado" name="num_empleado"></ion-input>
+        <h5 class="ion-text-center">Contraseña</h5>
+        <ion-input type="password"  [(ngModel)]="password" placeholder="Contraseña" name="password"></ion-input>
+    </div>
+
+    <div>
+        <h3 class="mt-submit ion-text-center" (click)="logForm()">INICIAR SESIÓN</h3>
+    </div>
+</ion-content>

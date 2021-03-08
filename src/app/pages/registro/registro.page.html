@@ -1,0 +1,24 @@
+<ion-content>
+  <ion-fab class="m-t" vertical="top" horizontal="start" slot="fixed">
+      <ion-icon (click)="back()" class="font" name="arrow-back"></ion-icon>
+  </ion-fab>
+
+
+  <h3 class="m-t-f ion-text-center">Registrarme</h3>
+
+
+  <form class="m-t-form" (ngSubmit)="logForm()">
+      <h5 class="ion-text-center">Número de empleado</h5>
+      <ion-input type="text" [(ngModel)]="num_empleado" placeholder="Número de empleado" name="num_empleado"></ion-input>
+      <h5 class="ion-text-center">Fecha de nacimiento</h5>
+      <ion-datetime (ionChange)="getDate($event)" displayFormat="MM/DD/YYYY" min="1970-03-14" max="2020-03-14" value="2002-09-23T15:03:46.789"></ion-datetime>
+      <h5 class="ion-text-center">Contraseña</h5>
+      <ion-input type="password"  [(ngModel)]="password" placeholder="Contraseña" name="password"></ion-input>
+      <h3 class="mt-submit ion-text-center" (click)="take()">Tomar foto</h3>
+      <img class="ion-text-center" *ngIf="photo" [src]="photo" alt="">
+
+
+  </form>
+  <h3 class="mt-submit ion-text-center" (click)="logForm()">REGÍSTRATE</h3>
+
+</ion-content>

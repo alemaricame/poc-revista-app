@@ -1,5 +1,8 @@
 {
   "name": "revista",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }
